@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    background-image: url(./imagens/AdobeStock_287673337.jpeg);
+    background-size: cover;
+    background-position: right bottom;
+    position: absolute;
+}
+
+.general_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
+.client_container {
+    margin-top: 90px;
+    border: 1px solid transparent;
+    border-radius: 8px 8px 0 0;
+    background-color: #378c5a;
+    color: white;
+    padding-left: 15px;
+    width: 480px;
+    height: 90px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome_container {
+    border: 1px solid transparent;
+    border-radius: 0 0 8px 8px;
+    background-color: white;
+    color: black;
+    padding-left: 15px;
+    width: 480px;
+    height: 250px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    width: 440px;
+    padding-left: 15px;
+    font-size: 15px;
+    height: 35px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.buttons #login {
+    background-color: #378c5a;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    border: transparent;
+    height: 35px;
+    line-height: 8px;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.buttons #register {
+    background-color: lightgray;
+    border-radius: 0 5px 5px 0;
+    border: transparent;
+    height: 35px;
+    line-height: 8px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.links {
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 18px;
+}
+
+a {
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+}
