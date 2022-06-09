@@ -1,41 +1,47 @@
-body {
-    display: flex;
+* {  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth; 
     background-image: url(./imagens/AdobeStock_287673337.jpeg);
     background-size: cover;
-    background-position: right bottom;
-    position: absolute;
+    min-height: 100vh;
+    width: 100%;
 }
 
-.general_container {
+.container{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    margin-top: 100px;
-    margin-left: 700px;
 }
 
-.client_container {
-    margin-top: 90px;
-    border: 1px solid transparent;
+.client {
+    margin-top: 200px;
     border-radius: 8px 8px 0 0;
     background-color: #378c5a;
     color: white;
+    padding-top: 25px;
     padding-left: 15px;
     width: 480px;
     height: 90px;
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
 }
 
-.welcome_container {
-    border: 1px solid transparent;
+.welcome {
     border-radius: 0 0 8px 8px;
     background-color: white;
     color: black;
     padding-left: 15px;
+    padding-top: 10px;
     width: 480px;
     height: 250px;
-    font-size: 12px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
 }
 
 form {
@@ -45,7 +51,7 @@ form {
 form input {
     width: 440px;
     padding-left: 15px;
-    font-size: 15px;
+    font-size: 1.5rem;
     height: 35px;
     margin-bottom: 13px;
     border-radius: 5px;
@@ -59,18 +65,27 @@ form input {
     border: transparent;
     height: 35px;
     line-height: 8px;
-    font-size: 15px;
+    font-size: 1.5rem;
     padding: 15px;
     text-align: center;
 }
 
 .buttons #register {
-    background-color: lightgray;
+    background-color: rgb(231, 231, 231);
+    border-radius: 0;
+    border: transparent;
+    height: 35px;
+    line-height: 8px;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+.buttons #change {
+    background-color: rgb(231, 231, 231);
     border-radius: 0 5px 5px 0;
     border: transparent;
     height: 35px;
     line-height: 8px;
-    font-size: 15px;
+    font-size: 1.5rem;
     padding: 15px;
 }
 
@@ -82,6 +97,6 @@ form input {
 
 a {
     color: black;
-    font-size: 15px;
+    font-size: 1.5rem;
     padding: 5px;
 }
